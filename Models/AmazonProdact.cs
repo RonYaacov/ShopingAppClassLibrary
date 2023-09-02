@@ -115,7 +115,7 @@ namespace ShopingBotClassLibrary
 
         }
 
-        public override void PurchaseAvailableProdact(string AmazonCratURL, string USerName, string Password = "safi1990")
+        public override void PurchaseAvailableProdact(string AmazonCratURL, string USerName, string Password = "BLABLA")
         {
             IWebDriver Driver = Prodact.Drivers[Prodact.Drivers.Count - 1];
             Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(1);
